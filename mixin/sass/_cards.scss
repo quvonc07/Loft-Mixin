@@ -1,0 +1,59 @@
+.shop-leader-title {
+    color: var(--text-color, #414141);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.shop-row {
+    margin-top: 67px;
+    flex-shrink: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 72px;
+    justify-content: center;
+}
+
+.shop-col {
+    transition: 0.5s;
+}
+
+.shop-col-title {
+    padding-left: 20px;
+    padding-top: 54px;
+    color: var(--text-color, #414141);
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-bottom: 6px;
+}
+
+.shop-col-text {
+    padding-left: 20px;
+    color: var(--text-color, #414141);
+    font-family: 'Roboto';
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 9px;
+}
+
+.shop-col-price {
+    padding-left: 20px;
+    color: var(--text-color, #414141);
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.shop-col:hover {
+    scale: 1.2;
+    box-shadow: 0px 1px 9px 0px rgba(0, 0, 0, 0.11);
+}

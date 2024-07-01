@@ -1,0 +1,38 @@
+.main{
+    width: 100%px;
+height: 38px;
+flex-shrink: 0;
+background: #313131;
+}
+.main__flex{
+    display: flex;
+    
+    justify-content: space-between;
+}
+.main__right{
+    display: flex;
+    margin-top: 10px;
+    gap: 30px;
+    
+}
+.main__left{
+    display: flex;
+    margin-top: 10px;
+    gap: 30px;
+}
+.main__right__a{
+    color: #FFF;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.main__left p{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
